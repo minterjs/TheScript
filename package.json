@@ -1,0 +1,22 @@
+{
+  "name": "theminterjsscript",
+  "version": "1.0.0",
+  "description": "Hedging script for MINTERJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minterjs/TheScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minterjs/TheScript/issues"
+  },
+  "homepage": "https://github.com/minterjs/TheScript#readme",
+  "dependencies": {
+    "minterjs": "^0.4.1"
+  }
+}

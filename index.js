@@ -41,7 +41,7 @@ const promils = process.env.promils || 1;
             ) / 1000000;
 
             MinterJS.delegate({
-                coin, stake, coinSymbol: coin, message: 'TESTNET'
+                coin, stake, coinSymbol: coin, message: 'https://github.com/minterjs/TheScript'
             }).catch(e => console.log(e.response.data.error.tx_result.log));
         } else {
             MinterJS.sellAllCoins({
